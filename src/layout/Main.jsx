@@ -14,7 +14,7 @@ const Main = () => {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",
-                "X-API-KEY": API_KEY
+                "X-API-KEY": '9B0DP2V-KPK453X-GB6YBK0-MS3977W'
             },
         })
 
@@ -32,7 +32,7 @@ const Main = () => {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",
-                "X-API-KEY": API_KEY
+                "X-API-KEY": "9B0DP2V-KPK453X-GB6YBK0-MS3977W"
             },
         })
 
@@ -49,7 +49,7 @@ const Main = () => {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",
-                "X-API-KEY": API_KEY
+                "X-API-KEY": "9B0DP2V-KPK453X-GB6YBK0-MS3977W"
             },
         })
 
