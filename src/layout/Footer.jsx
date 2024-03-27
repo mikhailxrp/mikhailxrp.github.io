@@ -1,5 +1,3 @@
-import '../components/style/footer.css'
-
 const Footer = () => {
     return <>
         <footer className="footer bg-secondary">

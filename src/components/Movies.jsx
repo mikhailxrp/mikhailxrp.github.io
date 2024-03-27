@@ -1,11 +1,8 @@
 import React from "react";
-import './style/movies.css'
 import Movie from "./Movie";
 
 
 const Movies = ({ movies }) => {
-
-
 
     const film = movies.map(movie => {
         return <Movie
