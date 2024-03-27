@@ -3,8 +3,6 @@ import Preloader from "../components/Preloader"
 import { useState, useEffect } from "react";
 import Search from "../components/Search";
 
-const API_KEY = process.env.REACT_APP_API_KEY
-
 const Main = () => {
     const [movies, setMovies] = useState([])
     const [isLoading, setIsLoading] = useState(true)
@@ -61,13 +59,13 @@ const Main = () => {
         setMovies(data.docs)
     }
 
-    useEffect(() => {
-        getFilns()
-    }, [])
-
     const handleSearchFilm = (film) => {
         getSearchFilm(film)
     }
+
+    useEffect(() => {
+        getFilns()
+    }, [])
 
     return (
         <main className="container content-main">

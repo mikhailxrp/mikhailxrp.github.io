@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Search = ({ searchFilm, getTypeMovie }) => {
     const [search, setSearch] = useState('')
-    const [typeFilm, setTypeFilm] = useState(null)
+    const [typeFilm, setTypeFilm] = useState('movie')
 
     const handleSearch = (e) => {
         setSearch(e.target.value)
